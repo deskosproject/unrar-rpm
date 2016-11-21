@@ -1,6 +1,6 @@
 Name:           unrar
 Version:        5.0.12
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Utility for extracting, testing and viewing RAR archives
 License:        Freeware with further limitations
 Group:          Applications/Archiving
@@ -120,6 +120,9 @@ fi
 
 
 %changelog
+* Mon Nov 21 2016 Ricardo Arguello <rarguello@deskosproject.org> - 5.0.12-3
+- Rebuilt for DeskOS
+
 * Sun Dec 15 2013 Nicolas Chauvet <kwizart@gmail.com> - 5.0.12-2
 - Add isa dependency
 
